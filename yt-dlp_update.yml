@@ -4,4 +4,4 @@
   tasks:
     -
     - name: selfupdate the yt-dlp binary
-      ansible.builtin.shell: yt-dlp --update
+      ansible.builtin.shell: yt-dlp -U
