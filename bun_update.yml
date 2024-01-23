@@ -1,0 +1,7 @@
+---
+- hosts: servers
+  become: true
+  tasks:
+    -
+    - name: selfupdate the bun binary
+      ansible.builtin.shell: /home/azureuser/.bun/bin/bun upgrade
